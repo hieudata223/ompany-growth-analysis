@@ -1,156 +1,90 @@
-\# Sales Performance Analysis
+# Is the Company Really Growing or Just a Margin Illusion?
 
+## Business Problem
+Is the company truly experiencing sustainable growth, or is the increase in gross margin creating a misleading picture of performance?
 
+This project analyzes sales data to uncover whether business growth is real or simply driven by changes in product and customer mix.
 
-\## Business Question
+---
 
-Is the company truly experiencing sustainable growth, or is the growth misleading?
+## Dataset
+- Source: Kaggle
+- Rows: 34,866
+- Columns: 16
 
+---
 
+## Tools Used
+- SQL: data cleaning, transformation, and analysis
+- Power BI: dashboard and visualization
 
-This analysis aims to evaluate revenue trends, profitability, product performance, and customer behavior to determine whether business growth is real and sustainable.
+---
 
+## Data Cleaning
+- Removed duplicate records
+- Checked for missing values (no significant issues)
+- Validated data consistency (no negative revenue, cost, or quantity)
 
+---
 
-\## Overview
+## Key Metrics
+- Total Revenue: 22.35M  
+- Total Profit: 2.26M  
+- Profit Margin: 10.12%  
+- Total Orders: 34,867  
+- Average Order Value: 640.87  
 
-This project analyzes a sales dataset of over 34,866 transactions to understand revenue trends, product performance, customer behavior, and regional sales distribution.
+---
 
+## Key Insights
 
+- Revenue and profit decreased significantly in the final period, while gross margin increased  
+- The increase in margin does not indicate real growth, but is driven by a shift in product mix  
+- Bikes (main revenue driver) have low or even negative margins in some markets  
+- Higher-margin categories (Accessories, Clothing) increased their share, inflating overall profitability  
+- The business is highly dependent on a single product category → potential risk  
 
-The analysis was performed using SQL, and results are prepared for dashboard visualization.
+---
 
+## Time Analysis
+- Highest revenue in **June 2016 (2.34M)**  
+- Second highest in **May 2016 (2.30M)**  
+- Strong growth trend from 2015 → 2016  
+- Possible seasonality with peak sales mid-year  
 
+---
 
-\---
+## Product Analysis
+- **Bikes** generate the highest revenue (~11.48M)  
+- Followed by Accessories (~7.42M) and Clothing (~3.44M)  
 
+**Insight:
+- Revenue is heavily concentrated in Bikes  
+- Business depends on one main category → concentration risk  
+- Opportunity to grow higher-margin categories  
 
+---
 
-\## Data Cleaning
+## Customer Analysis
+- Highest revenue from age group **35–50 (~8.56M)**  
+- Followed by **25–35 (~8.03M)**  
 
-\- No significant missing values found
+**Insight:
+- Core customers are aged 25–50  
+- Younger (<25) and older (>50) contribute less  
+- Focus marketing on middle-age customers  
 
-\- Identified and removed duplicate records
+---
 
-\- No abnormal values (negative revenue, cost, or quantity)
+## Conclusion
+- Growth is not entirely real, but partially driven by margin illusion  
+- Revenue is declining while profitability ratio improves → warning signal  
+- Business depends heavily on Bikes category  
+- Need to diversify product mix and expand customer segments  
 
+---
 
+## Dashboard Preview
 
-\---
-
-
-
-\## Key Metrics
-
-\- Total Revenue: 22.35M
-
-\- Total Profit: 2.26M
-
-\- Profit Margin: 10.12%
-
-\- Total Orders: 34,867
-
-\- Average Order Value: 640.87
-
-
-
-👉 Insight:
-
-\- Business is profitable with a stable margin (\~10%)
-
-\- Revenue is driven by a high volume of transactions
-
-
-
-\---
-
-
-
-\## Time Analysis
-
-\- Highest revenue in \*\*June 2016 (2.34M)\*\*
-
-\- Second highest in \*\*May 2016 (2.30M)\*\*
-
-\- Lowest revenue in early 2015 months
-
-
-
-👉 Insight:
-
-\- Strong growth trend from 2015 → 2016
-
-\- Possible seasonality with peak sales mid-year
-
-
-
-\---
-
-
-
-\## Product Analysis
-
-\- \*\*Bikes\*\* generate the highest revenue (\~11.48M)
-
-\- Followed by Accessories (\~7.42M) and Clothing (\~3.44M)
-
-
-
-👉 Insight:
-
-\- Revenue is heavily concentrated in Bikes
-
-\- Business depends strongly on one main category → risk concentration
-
-\- Opportunity to grow Accessories \& Clothing
-
-
-
-\---
-
-
-
-\## Customer Analysis
-
-\- Highest revenue from age group \*\*35–50 (\~8.56M)\*\*
-
-\- Followed by \*\*25–35 (\~8.03M)\*\*
-
-
-
-👉 Insight:
-
-\- Core customers are aged 25–50
-
-\- Younger (<25) and older (>50) segments contribute less
-
-\- Target marketing toward middle-age customers
-
-
-
-\---
-
-
-
-\## Geography Analysis
-
-\*(You can add this later if you want more depth in dashboard)\*
-
-
-
-\---
-
-
-
-\## Conclusion
-
-\- Revenue is concentrated in Bikes category
-
-\- Sales show strong growth trend over time
-
-\- Core customers are aged 25–50
-
-\- Business has stable profitability (\~10% margin)
-
-\- Opportunity to diversify product categories and target key customer segments
-
+### Overview
+![Overview]
