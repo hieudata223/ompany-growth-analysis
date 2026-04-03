@@ -85,6 +85,6 @@ This project analyzes sales data to uncover whether business growth is real or s
 ---
 
 ## Dashboard Preview
-### Overview
 
+### Overview
 ![Overview](https://raw.githubusercontent.com/hieudata223/company-growth-analysis/main/overview.png)
